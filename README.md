@@ -92,6 +92,13 @@ This lab environment is ideal for:
 
 ![ad](https://github.com/user-attachments/assets/7f597350-ff1e-473d-97e3-fab01c90815f)
 
+![IMG_4276](https://github.com/user-attachments/assets/129b7a50-efc9-4578-bc6f-8fa0de79ae41)
+
+![dhcp](https://github.com/user-attachments/assets/d5d61453-61f8-415f-9895-db584acfa891)
+
+
+
+
 
 
 
