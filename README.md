@@ -79,11 +79,11 @@ School Main Network (10.0.0.0/24)
 
 ## Key Features
 
-✅ **Network Isolation** - NAT configuration protects school network from experimental changes
-✅ **DHCP Management** - Automated IP assignment for client devices
-✅ **Active Directory** - Centralized user and computer management
-✅ **Enterprise Setup** - Mimics real-world corporate network architecture
-✅ **Dual Network Access** - Devices can access both local AD services and school network resources
+ **Network Isolation** - NAT configuration protects school network from experimental changes
+ **DHCP Management** - Automated IP assignment for client devices
+ **Active Directory** - Centralized user and computer management
+ **Enterprise Setup** - Mimics real-world corporate network architecture
+ **Dual Network Access** - Devices can access both local AD services and school network resources
 
 ## Use Cases
 
