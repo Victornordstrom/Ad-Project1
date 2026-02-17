@@ -53,7 +53,7 @@ School Main Network (10.0.0.0/24)
 - **Role**: Layer 2 network connectivity hub
 - **Connected Devices**: Router, Server, and client machines
 
-![Physical Network Setup](https://github.com/user-attachments/assets/129b7a50-efc9-4578-bc6f-8fa0de79ae41)
+![Physical Network Setup]
 
 #### Server Configuration (Dell Server)
 - **Operating System**: Windows Server
