@@ -1,12 +1,91 @@
-# Cisco Networking project with AD Server 
+# Cisco Networking Project with Active Directory Server
 
-Materials Used in this project:
+This project demonstrates a complete network infrastructure setup integrating Cisco networking equipment with Windows Server Active Directory and DHCP services. The lab environment simulates an isolated school network segment while maintaining connectivity to the school's main network.
 
-- Cisco 2960 Switch
-- Cisco 2911 Router
-- Dell Server ( Dhcp and active Directory Server )
+## Project Overview
 
+This is an enterprise-level networking project that combines:
+- **Network Infrastructure**: Cisco router and switch for network connectivity
+- **Directory Services**: Windows Server Active Directory (AD) for user and computer management
+- **DHCP Services**: Dual DHCP configuration for both public and private network ranges
+- **Network Isolation**: NAT implementation to isolate the project network from the school's main network
 
-<img src="https://github.com/user-attachments/assets/023e6fd3-0082-478b-bb05-b351041786a1" width="400" alt="IMG_4274">
+## Hardware Materials Used
 
-<img src="https://github.com/user-attachments/assets/dd9a6373-b4c6-4aeb-aab7-3e9fa47ddc2b" width="400" alt="IMG_4283">
+- **Cisco 2960 Switch** - Layer 2 network switch for device connectivity
+- **Cisco 2911 Router** - Enterprise router for WAN connectivity and NAT
+- **Dell Server** - Windows Server running Active Directory and DHCP services
+
+## Network Architecture
+
+### Network Topology
+
+```
+School Main Network (10.0.0.0/24)
+         |
+         | (10.0.0.1)
+         |
+    [Cisco 2911 Router]
+    (NAT - Isolation Boundary)
+         |
+    [Cisco 2960 Switch]
+         |
+    [Dell AD/DHCP Server]
+         |
+    [Client Devices]
+```
+
+### Network Configuration Details
+
+#### Router Configuration
+- **Device**: Cisco 2911 Router
+- **Connection to School**: Connected to school's main switch
+- **WAN Interface**: Configured with DHCP to receive public IP from school's main network
+- **Security**: NAT (Network Address Translation) implemented to isolate project network from school network
+- **Purpose**: Gateway between school network and project network
+
+#### Switch Configuration
+- **Device**: Cisco 2960 Switch
+- **Role**: Layer 2 network connectivity hub
+- **Connected Devices**: Router, Server, and client machines
+
+#### Server Configuration (Dell Server)
+- **Operating System**: Windows Server
+- **Primary Services**:
+  - **Active Directory**: User authentication and network resource management
+  - **DHCP Server**: Dynamic IP address assignment
+
+- **Network Details**:
+  - **Network Range**: 192.168.1.0/24
+  - **DHCP Scope**: 192.168.1.100 - 192.168.1.200
+  - **Gateway/AD Server IP**: 192.168.1.1 (typical configuration)
+  - **School Network Gateway**: 10.0.0.1
+
+## Key Features
+
+✅ **Network Isolation** - NAT configuration protects school network from experimental changes
+✅ **DHCP Management** - Automated IP assignment for client devices
+✅ **Active Directory** - Centralized user and computer management
+✅ **Enterprise Setup** - Mimics real-world corporate network architecture
+✅ **Dual Network Access** - Devices can access both local AD services and school network resources
+
+## Use Cases
+
+This lab environment is ideal for:
+- Learning enterprise networking concepts
+- Understanding Active Directory implementation
+- Practicing Cisco router and switch configuration
+- Testing DHCP and network security policies
+- Demonstrating network isolation techniques
+
+## Network Access Points
+
+- **School Network Gateway**: 10.0.0.1
+- **Project Network**: 192.168.1.0/24
+- **DHCP Range**: 192.168.1.100 - 192.168.1.200
+
+## Project Images
+
+![Network Setup Image 1](https://github.com/user-attachments/assets/023e6fd3-0082-478b-bb05-b351041786a1)
+
+![Network Setup Image 2](https://github.com/user-attachments/assets/dd9a6373-b4c6-4aeb-aab7-3e9fa47ddc2b)
