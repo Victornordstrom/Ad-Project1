@@ -96,6 +96,12 @@ This lab environment is ideal for:
 
 ![dhcp](https://github.com/user-attachments/assets/d5d61453-61f8-415f-9895-db584acfa891)
 
+![victor](https://github.com/user-attachments/assets/870a23f3-bea0-4fbd-b02e-159cf629ac22)
+
+![vcitr1](https://github.com/user-attachments/assets/9ba274bf-ed7a-4500-a8c9-2c8e7e59e0b1)
+
+![IMG_4277](https://github.com/user-attachments/assets/c5400d58-b269-483d-a0b5-210e6a39afb5)
+
 
 
 
