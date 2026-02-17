@@ -1,12 +1,23 @@
- # Cisco Networking project with AD Server 
+# Project Title
 
-Materials Used in this project:
+Description of your project.
 
-- Cisco 2960 Switch
-- Cisco 2911 Router
-- Dell Server ( Dhcp and active Directory Server )
+## Resized Images
 
+Here are some images resized using HTML width constraints:
 
-![IMG_4274](https://github.com/user-attachments/assets/023e6fd3-0082-478b-bb05-b351041786a1)
+<img src="image1.png" width="300" alt="Description of image 1">
+<img src="image2.png" width="300" alt="Description of image 2">
+<img src="image3.png" width="300" alt="Description of image 3">
 
-![IMG_4283](https://github.com/user-attachments/assets/dd9a6373-b4c6-4aeb-aab7-3e9fa47ddc2b)
+## Installation
+
+Instructions for installation.
+
+## Usage
+
+Instructions for usage.
+
+## Contributing
+
+Guidelines for contributing.
