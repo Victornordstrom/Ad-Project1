@@ -77,6 +77,11 @@ School Main Network (10.0.0.0/24)
 
 ![DHCP Server Setup](https://github.com/user-attachments/assets/d5d61453-61f8-415f-9895-db584acfa891)
 
+![IMG_4276](https://github.com/user-attachments/assets/138507c4-e3e5-4221-bdfa-0ea4efa54df4)
+
+
+
+
 ## Key Features
 
  **Network Isolation** - NAT configuration protects school network from experimental changes
